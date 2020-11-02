@@ -1,3 +1,19 @@
+In my own words follow the simple steps as below:
+
+This is starter template for grandstack app. For configuring please follow the steps below:
+1. configure neo4j, blank database. 
+https://neo4j.com/
+2. Then do npx create-grandstack-app myNewApp
+or
+yarn create grandstack-app myNewApp
+3. Then set .env file prebuilt with the starter api pack, need to edit 3 fields user, uri and password.
+4. Run graphQL playground at endpoint 4000/graphql
+5. on port 3000 grandstack app will run.
+6. Then make github push all your repo to github.
+7. Deploy at netlify. if there is any error read stack trace and rectify accordingly. In my case i have to create some dummy folder for the ease of deployment.
+Happy Learning :)
+
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://grandstack.io/deploy-starter-netlify) [![Deploy to Vercel](https://vercel.com/button)](https://grandstack.io/deploy-starter-vercel) [![Provision Neo4j](https://grandstack.io/img/provision-neo4j.png)](https://sandbox.neo4j.com/?usecase=blank-sandbox)
 
 # GRANDstack Starter
